@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Règles de confidentialité – Pointage ASF</title>
+<meta name="description" content="Règles de confidentialité de l'application Pointage ASF : quelles données sont utilisées, où elles sont stockées, et accès à Google Drive.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<header>
+  <h1>Règles de confidentialité</h1>
+  <p class="sub">Pointage ASF (application Android) · Dernière mise à jour : 24 novembre 2026</p>
+  <nav class="nav"><a href="index.html">← Accueil</a><a href="#english">English</a></nav>
+</header>
+
+<div class="card">
+  <p><b>En bref :</b> vos données restent sur votre téléphone. Si vous activez une sauvegarde, elles sont copiées dans <b>votre propre</b> compte Dropbox ou Google Drive. Le développeur n'a aucun serveur, ne reçoit aucune de vos données, et n'utilise ni publicité ni outil de statistiques.</p>
+</div>
+
+<h2>1. Qui est responsable</h2>
+<p>L'application Pointage ASF est éditée par Traider (« le développeur »). Contact : via les <a href="https://github.com/guillaumek270-del/pointage-asf/issues">« issues » du dépôt GitHub</a> de l'application.</p>
+
+<h2>2. Données traitées par l'application</h2>
+<ul>
+  <li><b>Données que vous saisissez</b> : jours et horaires de la feuille de pointage, nom et prénom, signature (dessinée ou prise en photo), historique et PDF/Excel des documents créés.</li>
+  <li><b>Identifiants de messagerie</b> (si vous utilisez la fonction courrier) : adresse et mot de passe de votre boîte, utilisés uniquement pour vous connecter à votre serveur de courrier.</li>
+  <li><b>Jetons d'accès</b> Dropbox / Google : permettent à l'application d'agir sur votre compte après votre autorisation.</li>
+</ul>
+<p>Tout cela est <b>stocké localement sur votre appareil</b>. L'application ne comporte aucun suivi publicitaire, aucun outil d'analyse et ne transmet ces données à aucun serveur du développeur.</p>
+
+<h2>3. Google Drive (facultatif)</h2>
+<div class="card">
+  <p>Si vous touchez « Se connecter avec Google » dans Paramètres, l'application demande l'autorisation suivante :</p>
+  <ul>
+    <li><code>https://www.googleapis.com/auth/drive.file</code> — voir et gérer <b>uniquement les fichiers que l'application a elle-même créés</b>.</li>
+  </ul>
+  <p>Utilisation : l'application crée un dossier « Pointage ASF » dans votre Drive et y copie vos mois, votre signature, l'historique des documents et les fichiers qu'elle a générés, afin de les restaurer sur un autre appareil. Elle ne lit, ne modifie et ne supprime aucun autre fichier de votre Drive, et n'accède ni à votre messagerie Gmail, ni à vos contacts, ni à votre agenda.</p>
+  <p>Ces données sont transférées directement entre votre téléphone et votre compte Google ; le développeur n'y a pas accès, ne les stocke pas, ne les partage pas et ne les vend pas. L'utilisation par Pointage ASF des informations reçues des API Google respecte la <a href="https://developers.google.com/terms/api-services-user-data-policy">politique relative aux données utilisateur des services d'API Google</a>, y compris les exigences d'utilisation limitée.</p>
+</div>
+
+<h2>4. Dropbox (facultatif)</h2>
+<p>De la même manière, si vous reliez votre compte Dropbox, l'application lit et écrit des fichiers dans votre Dropbox à votre demande (explorateur de fichiers, sauvegarde, mise à jour de l'application). Les échanges se font directement entre votre téléphone et Dropbox.</p>
+
+<h2>5. Partage des données</h2>
+<p>Le développeur ne vend, ne loue et ne partage aucune donnée personnelle. Les seuls échanges sont ceux que vous déclenchez vous-même avec vos services Google, Dropbox ou de messagerie, soumis à leurs propres conditions.</p>
+
+<h2>6. Conservation, retrait d'accès et suppression</h2>
+<ul>
+  <li><b>Sur le téléphone</b> : vos données restent tant que vous ne désinstallez pas l'application ni n'effacez ses données. Pensez à faire une sauvegarde avant.</li>
+  <li><b>Déconnecter Google Drive</b> : bouton « Déconnecter Google Drive » dans Paramètres ; vous pouvez aussi retirer l'accès à tout moment sur <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</li>
+  <li><b>Supprimer les copies</b> : supprimez le dossier « Pointage ASF » dans votre Google Drive (ou votre Dropbox). Le développeur n'en détient aucune copie.</li>
+</ul>
+
+<h2>7. Sécurité et enfants</h2>
+<p>Les jetons et données restent dans l'espace privé de l'application sur votre téléphone. L'application n'est pas destinée aux enfants de moins de 13 ans.</p>
+
+<h2>8. Modifications</h2>
+<p>Cette page peut être mise à jour ; la date en haut indique la dernière version. En cas de changement important (nouvelles données ou nouvelles autorisations), l'application en informera l'utilisateur.</p>
+
+<h2 id="english">Privacy policy in English</h2>
+<div class="card">
+  <p><b>Summary.</b> Pointage ASF stores your data on your device only. The developer operates no server, receives none of your data, and the app contains no ads or analytics.</p>
+  <p><b>Google user data.</b> If you choose to sign in with Google, the app requests only the <code>drive.file</code> scope. It can see and modify only the files it created itself, in a "Pointage ASF" folder in your Google Drive, to back up and restore your timesheets, signature, document history and generated files. It does not access any other Drive file, Gmail, contacts or calendar. Data goes directly between your phone and your Google account; it is not accessible to, stored by, shared with or sold to the developer or any third party.</p>
+  <p>Pointage ASF's use and transfer to any other app of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+  <p><b>Revoking and deleting.</b> Use "Déconnecter Google Drive" in the app's settings, or remove access at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>; delete the "Pointage ASF" folder in your Drive to remove the backups.</p>
+  <p><b>Contact.</b> <a href="https://github.com/guillaumek270-del/pointage-asf/issues">GitHub issues</a>.</p>
+</div>
+
+<footer><a href="index.html">← Accueil</a></footer>
+</main>
+</body>
+</html>
